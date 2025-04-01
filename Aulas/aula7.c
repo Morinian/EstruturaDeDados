@@ -49,10 +49,6 @@ void desenfileirar(FILA *f, char *i){
   }
 }
 
-void teste(FILA *f, char *i){
-    strcat(i, f->inicio->item);
-}
-
 int main()
 {
   int i, n;
